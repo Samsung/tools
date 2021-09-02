@@ -1,6 +1,6 @@
 {
     "name": "@tizentv/tools",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Common APIs for tizen tools download and usage.",
     "main": "./lib/tools.js",
     "types": "./index.d.ts",
