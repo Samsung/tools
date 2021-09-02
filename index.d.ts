@@ -19,30 +19,32 @@ type Options = {
  * In *Window*, the download root is `C:\\tizen-tools`.
  * @param toolName Tool name.
  * @param options `Optional`. Set a proxy address manually. Or work with npm's proxy.
- * @returns `string` The path of the tool.
  */
-export function getToolPath(toolName: string, option?: Options): string;
+export function getToolPath(
+    toolName: string,
+    option?: Options
+): Promise<string>;
 
 /**
  * Download the `sdb` and get the path.
  * @param option `Optional`. Set a proxy address manually. Or work with npm's proxy.
  */
-export function getSdbPath(option?: Options): string;
+export function getSdbPath(option?: Options): Promise<string>;
 
 /**
  * Download the `certificate-encryptor` and get the path.
  * @param option `Optional`. Set a proxy address manually. Or work with npm's proxy.
  */
-export function getEncryptorPath(option?: Options): string;
+export function getEncryptorPath(option?: Options): Promise<string>;
 
 /**
  * Download the `certificate-generator` and get the path.
  * @param option `Optional`. Set a proxy address manually. Or work with npm's proxy.
  */
-export function getTizenCertPath(option?: Options): string;
+export function getTizenCertPath(option?: Options): Promise<string>;
 
 /**
  * Download the `samsung-certificate` and get the path.
  * @param option `Optional`. Set a proxy address manually. Or work with the npm's proxy.
  */
-export function getSamsungCertPat(option?: Options): string;
+export function getSamsungCertPat(option?: Options): Promise<string>;
