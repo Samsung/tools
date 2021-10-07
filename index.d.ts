@@ -1,8 +1,8 @@
 type Options = {
-    /**
-     * Proxy address
-     */
-    proxy: string;
+  /**
+   * Proxy address
+   */
+  proxy: string;
 };
 /**
  * Download the tizen tool and return the tool's path.
@@ -21,8 +21,8 @@ type Options = {
  * @param options `Optional`. Set a proxy address manually. Or work with npm's proxy.
  */
 export function getToolPath(
-    toolName: string,
-    option?: Options
+  toolName: string,
+  option?: Options
 ): Promise<string>;
 
 /**
