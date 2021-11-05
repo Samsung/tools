@@ -5,12 +5,14 @@ This is a tools manager project for tizentv development, providing tools downloa
 Please note that, In order to use this pacakge, `@tizentv/tools` is required.
 
 ## Supported APIs
+
     //options: {proxy: ''}
--   getToolPath(toolName, [options])
--   getSdbPath([options])
--   getEncryptorPath([options])
--   getTizenCertPath([options])
--   getSamsungCertPath([options])
+
+- getToolPath(toolName, [options])
+- getSdbPath([options])
+- getEncryptorPath([options])
+- getTizenCertPath([options])
+- getSamsungCertPath([options])
 
 ```js
 usage:
